@@ -1,0 +1,56 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica;
+}
+
+.likesButtons{
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  width: 100%;
+  height: 50px;
+}
+
+.likesButtons p{
+  
+  font-weight: bold;
+}
+
+.likesButtons--button{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.like{
+  font-size: 5rem;
+  color: red;
+}
+
+.likesButtons button{
+  font-size: 1.5rem;
+  border: none;
+}
+
+.likesButtons button:hover{
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+
+.like{
+  color: green;
+  background-color: #fafafa;
+}
+
+.loveit{
+  background-color: #fafafa;
+  color: red;
+}
+.disLike{
+  background-color: #fafafa;
+  color: black;
+}
